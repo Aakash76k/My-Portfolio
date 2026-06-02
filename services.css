@@ -1,0 +1,164 @@
+/* services.css */
+.services-section {
+  color: #fff;
+}
+
+.services-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-hero h1 {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.services-hero .intro {
+  font-size: 1.2rem;
+  color: #dae2ff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 28px;
+  margin-bottom: 64px;
+}
+
+.service-card {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: #dae2ff;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.service-link {
+  color: #28d0ff;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.service-link:hover {
+  color: #3fff;
+}
+
+.process-section {
+  margin: 80px 0;
+  text-align: center;
+}
+
+.process-section h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 48px;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.process-step {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 16px;
+  padding: 28px 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.step-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #28d0ff;
+  margin-bottom: 12px;
+}
+
+.process-step h3 {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.process-step p {
+  color: #dae2ff;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, rgba(47,130,255,0.2), rgba(40,208,255,0.2));
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 60px 40px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.cta-section h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.cta-section p {
+  color: #dae2ff;
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+}
+
+.cta-section .btn-primary {
+  padding: 14px 32px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cta-section {
+    padding: 40px 24px;
+  }
+
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+}
