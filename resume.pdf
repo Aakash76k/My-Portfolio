@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %PDF-1.4
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
@@ -143,3 +144,150 @@ trailer
 startxref
 2837
 %%EOF
+=======
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2500 >>
+stream
+BT
+/F1 24 Tf
+150 750 Td
+(Aakash) Tj
+0 -40 Td
+/F1 16 Tf
+(Full Stack Developer) Tj
+0 -30 Td
+/F1 10 Tf
+(aakash76k747@gmail.com | Faridabad, Haryana, India | 1+ Years Experience) Tj
+0 -50 Td
+/F1 12 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -20 Td
+/F1 10 Tf
+(Dedicated Full Stack Developer with 1+ year of experience creating responsive, efficient web applications.) Tj
+0 -15 Td
+(Proficient in MERN Stack and emerging AI technologies.) Tj
+0 -20 Td
+/F1 12 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F1 10 Tf
+(Frontend: React, JavaScript, HTML5, CSS3, Responsive Design) Tj
+0 -15 Td
+(Backend: Node.js, Express.js, RESTful APIs, MongoDB) Tj
+0 -15 Td
+(MERN Stack: MongoDB, Express, React, Node.js) Tj
+0 -15 Td
+(Emerging Tech: Generative AI, AI Integration) Tj
+0 -15 Td
+(Tools: Git, GitHub, VS Code, Figma, npm, Postman) Tj
+0 -20 Td
+/F1 12 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -20 Td
+/F1 10 Tf
+(Full Stack Developer \(Training\)) Tj
+0 -12 Td
+(DUCAT, India | 2026 - Present) Tj
+0 -15 Td
+(- Advanced training in MERN Stack) Tj
+0 -12 Td
+(- Generative AI and AI integration courses) Tj
+0 -12 Td
+(- Building portfolio projects with industry best practices) Tj
+0 -20 Td
+(Full Stack Developer) Tj
+0 -12 Td
+(MEW INDUSTRIES | July 2025 - December 2025) Tj
+0 -15 Td
+(- Designed and developed Attendance System) Tj
+0 -12 Td
+(- Built responsive React frontend with real-time updates) Tj
+0 -12 Td
+(- Created robust Node.js and Express backend APIs) Tj
+0 -12 Td
+(- Implemented MongoDB database design) Tj
+0 -20 Td
+(Web Developer / Intern) Tj
+0 -12 Td
+(Web Development Projects | January 2025 - June 2025) Tj
+0 -15 Td
+(- Created Employee Database Portal with CRUD) Tj
+0 -12 Td
+(- Developed Company Website with modern design) Tj
+0 -12 Td
+(- Implemented responsive design for all devices) Tj
+0 -20 Td
+/F1 12 Tf
+(KEY PROJECTS) Tj
+0 -20 Td
+/F1 10 Tf
+(Attendance System Portal) Tj
+0 -12 Td
+(React | Node.js | MongoDB - Employee management system deployed at MEW INDUSTRIES) Tj
+0 -15 Td
+(Employee Database Portal) Tj
+0 -12 Td
+(React | MongoDB | REST APIs - Comprehensive employee management with search/filtering) Tj
+0 -15 Td
+(Company Website) Tj
+0 -12 Td
+(React | HTML5 | CSS3 - Modern, responsive website with portfolio section) Tj
+0 -15 Td
+(Portfolio Website) Tj
+0 -12 Td
+(HTML5 | CSS3 | JavaScript - Professional portfolio with animations) Tj
+0 -20 Td
+/F1 12 Tf
+(EDUCATION & TRAINING) Tj
+0 -20 Td
+/F1 10 Tf
+(MERN Stack + Generative AI) Tj
+0 -12 Td
+(DUCAT, India | 2026 - Advanced training in Full Stack Development) Tj
+0 -15 Td
+(Full Stack Web Development) Tj
+0 -12 Td
+(Self-Learning | 2024-2025 - React, Node.js, MongoDB, REST APIs) Tj
+0 -20 Td
+(/F1 12 Tf) Tj
+0 -15 Td
+(ACHIEVEMENTS) Tj
+0 -15 Td
+(/F1 10 Tf) Tj
+(- Successfully deployed production-ready attendance system) Tj
+0 -12 Td
+(- 15+ projects completed with satisfied clients) Tj
+0 -12 Td
+(- 5+ active clients with repeat work opportunities) Tj
+0 -12 Td
+(- Strong MERN Stack expertise with AI integration knowledge) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000214 00000 n 
+0000002764 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2837
+%%EOF
+>>>>>>> 1069eee6a4a78358f6953b4fc6f8826c3f937534
