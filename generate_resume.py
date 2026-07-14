@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env python3
 """
 Generate resume.pdf using fpdf2
@@ -187,7 +186,6 @@ for ach in achievements:
 # Save PDF
 pdf.output("resume.pdf")
 print("✅ Resume PDF created successfully!")
-=======
 #!/usr/bin/env python3
 """
 Generate resume.pdf using fpdf2
@@ -376,4 +374,3 @@ for ach in achievements:
 # Save PDF
 pdf.output("resume.pdf")
 print("✅ Resume PDF created successfully!")
->>>>>>> 1069eee6a4a78358f6953b4fc6f8826c3f937534

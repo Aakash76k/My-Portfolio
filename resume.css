@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* resume.css */
 .resume-section {
   color: #fff;
@@ -329,7 +328,6 @@
   .achievements-list {
     grid-template-columns: 1fr;
   }
-=======
 /* resume.css */
 .resume-section {
   color: #fff;
@@ -660,5 +658,4 @@
   .achievements-list {
     grid-template-columns: 1fr;
   }
->>>>>>> 1069eee6a4a78358f6953b4fc6f8826c3f937534
 }

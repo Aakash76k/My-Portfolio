@@ -1,385 +1,273 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Work | Aakash</title>
     <link rel="stylesheet" href="portfolio.css" />
     <link rel="stylesheet" href="work.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="page-wrap">
-        <header class="top-nav">
-            <div class="brand">A</div>
-            <nav>
-                <a href="portfolio.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Service</a>
-                <a href="work.html">Work</a>
-            </nav>
-            <a href="resume.html" class="btn-resume">Resume</a>
-        </header>
+      <header class="top-nav">
+        <div class="brand">A</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Service</a>
+          <a href="work.html">Work</a>
+        </nav>
+        <a href="resume.html" class="btn-resume">Resume</a>
+      </header>
 
-        <main class="work-section">
-            <div class="work-hero">
-                <h1>My Work</h1>
-                <p class="intro">A showcase of projects that demonstrate my expertise and creativity</p>
+      <main class="work-section">
+        <div class="work-hero">
+          <h1>My Work</h1>
+          <p class="intro">
+            A showcase of projects that demonstrate my expertise and creativity
+          </p>
+        </div>
+
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Dev</button>
+          <button class="filter-btn" data-filter="design">UI/UX</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300?text=E-Commerce+Platform"
+                alt="E-Commerce Platform"
+              />
+              <div class="portfolio-overlay">
+                <a href="#" class="portfolio-link">View Project →</a>
+              </div>
             </div>
-
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Dev</button>
-                <button class="filter-btn" data-filter="design">UI/UX</button>
-                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <div class="portfolio-content">
+              <h3>E-Commerce Platform</h3>
+              <p class="category">Web Development</p>
+              <p>
+                Full-stack e-commerce solution with React, Node.js, MongoDB.
+                Features include product management, payment integration, and
+                admin dashboard.
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
             </div>
+          </div>
 
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=E-Commerce+Platform" alt="E-Commerce Platform" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p class="category">Web Development</p>
-                        <p>Full-stack e-commerce solution with React, Node.js, MongoDB. Features include product management, payment integration, and admin dashboard.</p>
-                        <div class="project-tags">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="design">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Design+System" alt="Groxs" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Design System</h3>
-                        <p class="category">UI/UX Design</p>
-                        <p>Comprehensive design system with reusable components, typography scales, and color palettes. Documented in Figma for easy implementation.</p>
-                        <div class="project-tags">
-                            <span>figma</span>
-                            <span>UI/UX Design</span>
-                            <span>Design System</span>
-                            <span>Figma </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="mobile">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Fitness+App" alt="Fitness App" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Fitness Tracking App</h3>
-                        <p class="category">Mobile Development</p>
-                        <p>React Native mobile app with workout tracking, progress analytics, and social features. Real-time data sync across devices.</p>
-                        <div class="project-tags">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                            <span>Mobile</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=SaaS+Dashboard" alt="SaaS Dashboard" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>SaaS Analytics Dashboard</h3>
-                        <p class="category">Web Development</p>
-                        <p>Interactive analytics dashboard with real-time data visualization. Built with Vue.js and D3.js for powerful insights.</p>
-                        <div class="project-tags">
-                            <span>Node.js</span>
-                            <span>Express.js</span>
-                            <span>Backend API</span>
-                            <span>React</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="design">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Website+Redesign" alt="Website Redesign" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Corporate Website Redesign</h3>
-                        <p class="category">UI/UX Design</p>
-                        <p>Modern website redesign with improved UX flow, better accessibility, and 50% faster load times. Increased conversion by 35%.</p>
-                        <div class="project-tags">
-                            <span>UX Research</span>
-                            <span>Responsive</span>
-                            <span>Performance</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Social+Network" alt="Social Network" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Social Network Platform</h3>
-                        <p class="category">Web Development</p>
-                        <p>Feature-rich social platform with real-time messaging, notifications, and media sharing. Handles thousands of concurrent users.</p>
-                        <div class="project-tags">
-                            <span>Socket.io</span>
-                            <span>PostgreSQL</span>
-                            <span>Redis</span>
-                        </div>
-                    </div>
-                </div>
+          <div class="portfolio-item" data-category="design">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300?text=Design+System"
+                alt="Groxs"
+              />
+              <div class="portfolio-overlay">
+                <a href="#" class="portfolio-link">View Project →</a>
+              </div>
             </div>
-
-            <div class="cta-section">
-                <h2>Let's Collaborate</h2>
-                <p>Have an exciting project? Let's work together!</p>
-                <a href="mailto:aakash@example.com" class="btn-primary">Start a Project</a>
+            <div class="portfolio-content">
+              <h3>Design System</h3>
+              <p class="category">UI/UX Design</p>
+              <p>
+                Comprehensive design system with reusable components, typography
+                scales, and color palettes. Documented in Figma for easy
+                implementation.
+              </p>
+              <div class="project-tags">
+                <span>figma</span>
+                <span>UI/UX Design</span>
+                <span>Design System</span>
+                <span>Figma </span>
+              </div>
             </div>
-        </main>
+          </div>
+
+          <div class="portfolio-item" data-category="mobile">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300?text=Fitness+App"
+                alt="Fitness App"
+              />
+              <div class="portfolio-overlay">
+                <a href="#" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3>Fitness Tracking App</h3>
+              <p class="category">Mobile Development</p>
+              <p>
+                React Native mobile app with workout tracking, progress
+                analytics, and social features. Real-time data sync across
+                devices.
+              </p>
+              <div class="project-tags">
+                <span>React Native</span>
+                <span>Firebase</span>
+                <span>Mobile</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300?text=SaaS+Dashboard"
+                alt="SaaS Dashboard"
+              />
+              <div class="portfolio-overlay">
+                <a href="#" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3>SaaS Analytics Dashboard</h3>
+              <p class="category">Web Development</p>
+              <p>
+                Interactive analytics dashboard with real-time data
+                visualization. Built with Vue.js and D3.js for powerful
+                insights.
+              </p>
+              <div class="project-tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>Backend API</span>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="design">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300?text=Website+Redesign"
+                alt="Website Redesign"
+              />
+              <div class="portfolio-overlay">
+                <a href="#" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3>Corporate Website Redesign</h3>
+              <p class="category">UI/UX Design</p>
+              <p>
+                Modern website redesign with improved UX flow, better
+                accessibility, and 50% faster load times. Increased conversion
+                by 35%.
+              </p>
+              <div class="project-tags">
+                <span>UX Research</span>
+                <span>Responsive</span>
+                <span>Performance</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300?text=Social+Network"
+                alt="Social Network"
+              />
+              <div class="portfolio-overlay">
+                <a href="#" class="portfolio-link">View Project →</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <h3>Social Network Platform</h3>
+              <p class="category">Web Development</p>
+              <p>
+                Feature-rich social platform with real-time messaging,
+                notifications, and media sharing. Handles thousands of
+                concurrent users.
+              </p>
+              <div class="project-tags">
+                <span>Socket.io</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-section">
+          <h2>Let's Collaborate</h2>
+          <p>Have an exciting project? Let's work together!</p>
+          <a href="mailto:aakash@example.com" class="btn-primary"
+            >Start a Project</a
+          >
+        </div>
+      </main>
     </div>
 
-    <footer>
-        <p>&copy; 2026 Aakash. All rights reserved.</p>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="brand-circle">A</div>
+          <div>
+            <p class="footer-title">Aakash</p>
+            <p class="footer-text">
+              Full Stack Developer and Gen Ai creating polished web experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="work.html">Work</a>
+          <a href="Resume.html">Resume</a>
+        </div>
+
+        <div class="footer-contact">
+          <p>Contact</p>
+          <a href="mailto:aakash76k747@gmail.com">aakash76k747@gmail.com</a>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/aakash-7a088a28a/"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+            <a href="https://github.com/Aakash76k" aria-label="GitHub"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 Aakash. All rights reserved.</p>
     </footer>
 
     <script>
-        // Filter functionality
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
+      // Filter functionality
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const portfolioItems = document.querySelectorAll(".portfolio-item");
 
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const filter = button.getAttribute('data-filter');
-                
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.getAttribute("data-filter");
 
-                portfolioItems.forEach(item => {
-                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                        item.style.display = 'block';
-                        setTimeout(() => item.classList.add('show'), 10);
-                    } else {
-                        item.classList.remove('show');
-                        setTimeout(() => item.style.display = 'none', 300);
-                    }
-                });
-            });
+          filterButtons.forEach((btn) => btn.classList.remove("active"));
+          button.classList.add("active");
+
+          portfolioItems.forEach((item) => {
+            if (
+              filter === "all" ||
+              item.getAttribute("data-category") === filter
+            ) {
+              item.style.display = "block";
+              setTimeout(() => item.classList.add("show"), 10);
+            } else {
+              item.classList.remove("show");
+              setTimeout(() => (item.style.display = "none"), 300);
+            }
+          });
         });
+      });
     </script>
-</body>
+  </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Work | Aakash</title>
-    <link rel="stylesheet" href="portfolio.css" />
-    <link rel="stylesheet" href="work.css" />
-</head>
-<body>
-    <div class="page-wrap">
-        <header class="top-nav">
-            <div class="brand">A</div>
-            <nav>
-                <a href="portfolio.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Service</a>
-                <a href="work.html">Work</a>
-            </nav>
-            <a href="resume.html" class="btn-resume">Resume</a>
-        </header>
-
-        <main class="work-section">
-            <div class="work-hero">
-                <h1>My Work</h1>
-                <p class="intro">A showcase of projects that demonstrate my expertise and creativity</p>
-            </div>
-
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Dev</button>
-                <button class="filter-btn" data-filter="design">UI/UX</button>
-                <button class="filter-btn" data-filter="mobile">Mobile</button>
-            </div>
-
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=E-Commerce+Platform" alt="E-Commerce Platform" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p class="category">Web Development</p>
-                        <p>Full-stack e-commerce solution with React, Node.js, MongoDB. Features include product management, payment integration, and admin dashboard.</p>
-                        <div class="project-tags">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="design">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Design+System" alt="Groxs" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Design System</h3>
-                        <p class="category">UI/UX Design</p>
-                        <p>Comprehensive design system with reusable components, typography scales, and color palettes. Documented in Figma for easy implementation.</p>
-                        <div class="project-tags">
-                            <span>figma</span>
-                            <span>UI/UX Design</span>
-                            <span>Design System</span>
-                            <span>Figma </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="mobile">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Fitness+App" alt="Fitness App" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Fitness Tracking App</h3>
-                        <p class="category">Mobile Development</p>
-                        <p>React Native mobile app with workout tracking, progress analytics, and social features. Real-time data sync across devices.</p>
-                        <div class="project-tags">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                            <span>Mobile</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=SaaS+Dashboard" alt="SaaS Dashboard" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>SaaS Analytics Dashboard</h3>
-                        <p class="category">Web Development</p>
-                        <p>Interactive analytics dashboard with real-time data visualization. Built with Vue.js and D3.js for powerful insights.</p>
-                        <div class="project-tags">
-                            <span>Node.js</span>
-                            <span>Express.js</span>
-                            <span>Backend API</span>
-                            <span>React</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="design">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Website+Redesign" alt="Website Redesign" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Corporate Website Redesign</h3>
-                        <p class="category">UI/UX Design</p>
-                        <p>Modern website redesign with improved UX flow, better accessibility, and 50% faster load times. Increased conversion by 35%.</p>
-                        <div class="project-tags">
-                            <span>UX Research</span>
-                            <span>Responsive</span>
-                            <span>Performance</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300?text=Social+Network" alt="Social Network" />
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link">View Project →</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Social Network Platform</h3>
-                        <p class="category">Web Development</p>
-                        <p>Feature-rich social platform with real-time messaging, notifications, and media sharing. Handles thousands of concurrent users.</p>
-                        <div class="project-tags">
-                            <span>Socket.io</span>
-                            <span>PostgreSQL</span>
-                            <span>Redis</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cta-section">
-                <h2>Let's Collaborate</h2>
-                <p>Have an exciting project? Let's work together!</p>
-                <a href="mailto:aakash@example.com" class="btn-primary">Start a Project</a>
-            </div>
-        </main>
-    </div>
-
-    <footer>
-        <p>&copy; 2026 Aakash. All rights reserved.</p>
-    </footer>
-
-    <script>
-        // Filter functionality
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
-
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const filter = button.getAttribute('data-filter');
-                
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-
-                portfolioItems.forEach(item => {
-                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                        item.style.display = 'block';
-                        setTimeout(() => item.classList.add('show'), 10);
-                    } else {
-                        item.classList.remove('show');
-                        setTimeout(() => item.style.display = 'none', 300);
-                    }
-                });
-            });
-        });
-    </script>
-</body>
-</html>
->>>>>>> 1069eee6a4a78358f6953b4fc6f8826c3f937534
