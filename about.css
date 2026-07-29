@@ -19,6 +19,7 @@
   color: #dae2ff;
   max-width: 680px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .about-content {
